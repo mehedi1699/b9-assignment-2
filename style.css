@@ -130,6 +130,10 @@ nav {
     border-radius: 8px;
     background: #FF5400;
 }
+.primary-btn:hover{
+    color: black ;
+    cursor: pointer;
+}
 
 .search {
     margin-left: 0;
@@ -217,6 +221,37 @@ nav {
     margin-top: 1rem;
 
 }
+/* review section */
+.customer{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin-top: 2rem ;
+    margin-bottom: 3rem;
+}
+.review{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+box-shadow:.5rem .5rem .5rem .5rem gray;
+}
+.customer-review-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem
+}
+.name{
+    color: #131318;
+font-size: 24px;
+}
+.review-btn{
+    margin-bottom: 4rem;
+}
 
 /* latter section */
 .latter {
@@ -248,6 +283,10 @@ nav {
     text-align: center;
     font-size: 1.25rem;
     margin-bottom: 2rem;
+}
+.subscribe-btn:hover{
+    color: black;
+    cursor: pointer;
 }
 
 .latter-container {
@@ -350,6 +389,7 @@ footer hr{
         width: 100%;
 
     }
+    
 
     .trip-place {
 
@@ -361,6 +401,9 @@ footer hr{
         margin-top: 4px;
         padding: .5rem;
 
+    }
+    .customer-review-container{
+        grid-template-columns: repeat(1,1fr);
     }
 
     .offer img {
