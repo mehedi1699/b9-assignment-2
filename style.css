@@ -234,12 +234,15 @@ nav {
 
     .banner-title{
         padding: 1rem;
-        margin: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 0px;
         font-size: 3rem;
     }
     .banner-dis {
         font-size: 1rem;
         font-weight: 400;
+        margin-top: 0px;
+        font-size: .75rem;
 
     }
     .destination img{
@@ -249,5 +252,15 @@ nav {
     .mounten-pic img{
         width: 100%;
     
+    }
+    .trip-place {
+
+        width: 70%;
+        padding: 0px;
+    }
+    .trip-place input {
+        margin-top: 4px;
+        padding: .5rem;
+        
     }
 }
